@@ -107,6 +107,6 @@ div, div:before, div:after {
 }
 
 body {
-  background: #3c9;
+  background: transparent;
   font-family: Helvetica, Arial, sans-serif;
 }
