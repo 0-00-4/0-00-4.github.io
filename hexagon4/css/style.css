@@ -1,0 +1,196 @@
+body {
+  background: #EDE9E4;
+ }
+.menu {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hex {
+  position: absolute;
+  display: block;
+  height: 175px;
+  width: 200px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+ }
+.hex>div>div:hover {
+  cursor: pointer;
+}
+.top, .bottom {
+  background: #FF6D27;
+  display:block;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+.bottom-cutter {
+  position: absolute;
+  top: 49%;
+  overflow: hidden;
+  display: block;
+  height: 100px;
+  width: 200px;
+ }
+.top-cutter {
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  height: 86px;
+  width: 200px;
+ }
+.bottom {
+  top: -14%;
+  background: white;
+  
+ 
+ }
+.top::before, .top::after, .bottom::before, .bottom::after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: #FF6D27;
+  position: absolute;
+  
+}
+.top::before {
+  transform-origin: top left;
+  transform: rotate(30deg);
+  
+}
+.bottom::before {
+  transform-origin: bottom left;
+  transform: rotate(-30deg);
+  background:white;
+  
+}
+.top::after {
+  transform-origin: top right;
+  transform: rotate(-30deg);
+  
+}
+.bottom::after {
+  transform-origin: bottom right;
+  transform: rotate(30deg);
+  background: white;
+  
+}
+.round {
+  background: white;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 30%;
+  left: -10%; 
+  z-index: 2;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0;
+}
+.title {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 30%;
+  left: 55%; 
+  z-index: 2;
+  text-shadow: 2px 2px 3px #3E3E3E;  
+}
+.title p {
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+.round p {
+  text-align: center;
+  line-height: 5px;
+  font-size: 30px;
+  color: #737579;
+  font-family: Arial;
+  font-weight: bold;
+}
+.border {
+  height: 7px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0 2px 10px 0px;
+}
+.border::before, .border::after {
+  content: '';
+  display: block;
+  width: 101%;
+  height: 7px;
+  position: absolute;
+  background: white;
+  
+}
+.border::before {
+  transform-origin: top left;
+  transform: rotate(120deg);
+  left: 6px;
+  top: 3px;
+  box-shadow: 10px -5px 10px -1px;
+  position: absolute;
+  z-index: 1;
+}
+.border::after {
+  transform-origin: top right;
+  transform: rotate(-120deg);
+  z-index: 2;
+  left: -7px;
+  top:3px;
+  box-shadow: -10px -5px 10px -1px;
+}
+.hex::before {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: white;
+  z-index: -3;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;  
+  transform: translate( -50%, -50%);
+  box-shadow: -50px 50px 60px 5px #596661;
+}
+.one {
+  position: relative;
+}
+.two {
+  position: relative;
+  top: 115px;
+  left: 40px;
+}
+.two .top, .two .top::after, .two .top::before {
+  background: #C2E30E;
+}
+.three {
+  position: relative;
+  top: 35px;
+  left: 200px;
+}
+.three .top, .three .top::after, .three .top::before {
+  background: #00C2BC;
+}
+.four {
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+.four .top, .four .top::after, .four .top::before {
+  background: #AB6820;
+}
