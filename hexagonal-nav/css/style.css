@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#svg-container {
+  height: 100vh;
+  width: 100%;
+  transition: 1000ms;
+  margin-left: -2px;
+}
+
+#hex-border {
+  stroke: white;
+  stroke-width: 0.4;
+  fill: transparent;
+}
+
+.triangle {
+  cursor: pointer;
+  fill: white;
+  fill-opacity: 0.5;
+  transition: 1s linear;
+}
+
+.triangle:hover, .triangle.active {
+  fill-opacity: 0;
+}
+
+.offset-ur {
+  transform: translate(-50%, 50%) rotate(30deg);
+  -webkit-transform: translate(-50%, 50%) rotate(30deg);
+  -ms-transform: translate(-50, 50%) rotate(30deg);
+}
+
+.offset-mr {
+  transform: translateX(-50%) rotate(60deg);
+  -webkit-transform: translateX(-50%) rotate(60deg);
+  -ms-transform: translateX(-50%) rotate(60deg);
+}
+
+.offset-lr {
+  transform: translate(-50%, -50%) rotate(-30deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-30deg);
+  -ms-transform: translate(-50, -50%) rotate(-30deg);
+}
+
+.offset-ul {
+  transform: translate(50%, 50%) rotate(-30deg);
+  -webkit-transform: translate(50%, 50%) rotate(-30deg);
+  -ms-transform: translate(50, 50%) rotate(-30deg);
+}
+
+.offset-ml {
+  transform: translateX(50%) rotate(-60deg);
+  -webkit-transform: translateX(50%) rotate(-60deg);
+  -ms-transform: translateX(50%) rotate(-60deg);
+}
+
+.offset-ll {
+  transform: translate(50%, -50%) rotate(30deg);
+  -webkit-transform: translate(50%, -50%) rotate(30deg);
+  -ms-transform: translate(50, -50%) rotate(30deg);
+}
+
+.content {
+  font-family: "Oxygen", san-serif;
+  color: #b95b92;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: 1500ms;
+  max-width: 33vw;
+  min-width: 300px;
+}
+
+.content.active {
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.content-ul {
+  transform: translate(-100vw, -100vh);
+  -webkit-transform: translate(-100vw, -100vh);
+  -ms-transform: translate(-100vw, -100vh);
+}
+
+.content-ml {
+  transform: translateX(-100vw);
+  -webkit-transform: translateX(-100vw);
+  -ms-transform: translateX(-100vw);
+}
+
+.content-ll {
+  transform: translate(-100vw, 100vh);
+  -webkit-transform: translate(-100vw, 100vh);
+  -ms-transform: translate(-100vw, 100vh);
+}
+
+.content-ur {
+  transform: translate(100vw, -100vh);
+  -webkit-transform: translate(100vw, -100vh);
+  -ms-transform: translate(100vw, -100vh);
+}
+
+.content-mr {
+  transform: translateX(100vw);
+  -webkit-transform: translateX(100vw);
+  -ms-transform: translateX(100vw);
+}
+
+.content-lr {
+  transform: translate(100vw, 100vh);
+  -webkit-transform: translate(100vw, 100vh);
+  -ms-transform: translate(100vw, 100vh);
+}
