@@ -1,0 +1,114 @@
+$backgroundColor: #0088ff;
+$borderColor: #333333;
+$width: 300px;
+$height: 175px;
+
+div, div:before, div:after {
+  box-sizing: border-box;
+}
+.result {
+  display: inline-block;
+  padding: 13.33333px;
+  background-color: #fefefe;
+  background-image: linear-gradient(45deg, whitesmoke 25%, transparent 25%, transparent 75%, whitesmoke 75%, whitesmoke), linear-gradient(45deg, whitesmoke 25%, transparent 25%, transparent 75%, whitesmoke 75%, whitesmoke);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+.preview {
+  box-sizing: border-box;
+}
+.hexagon {
+  float: left;
+  position: relative;
+  width: $width; 
+  height: $height;
+  background-color: $backgroundColor;
+  margin: 86px 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-left: solid 150px $borderColor;
+  border-right: solid 150px $borderColor;
+  &, &:before, &:after {
+    transition: all 0.3s ease-in;
+  }
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 212px;
+    height: 212px;
+    -webkit-transform: scaleY(0.5) rotate(-45deg);
+    -ms-transform: scaleY(0.5) rotate(-45deg);
+    transform: scaleY(0.5) rotate(-45deg);
+    background-color: inherit;
+    left: -106px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  }
+  &:before {
+    top: -106px;
+    border-top: solid 212px $borderColor;
+    border-right: solid 212px $borderColor;
+  }
+  &:after {
+    bottom: -106px;
+    border-bottom: solid 212px $borderColor;
+    border-left: solid 212px $borderColor;
+  }
+  span {
+    display: block;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+    background: inherit;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+  .content {
+    padding: 0 10px;
+    p {
+      color: #fff;
+    }
+    .title {
+      font-weight: 100;
+      font-size: 26px;
+      text-transform: uppercase;
+      margin: 10px 0 15px;
+    }
+  }
+  
+  &:hover {
+    border-left-width: 20px;
+    border-right-width: 20px;
+    &:before, &:after {
+      left: 24px;
+    }
+    &:before {
+      border-top-width: 28px;
+      border-right-width: 28px;
+    }
+    &:after {
+      border-bottom-width: 28px;
+      border-left-width: 28px;
+    }
+    span {
+      opacity: 1;
+      top: 11px;
+      width: 260px;
+      height: 150px;
+    }
+  }
+}
+
+.even {
+  padding-left: 160px;
+  .hexagon {
+    margin: 0 10px 86px 0;
+  }
+}
+body {
+  background: #3c9;
+  font-family: Helvetica, Arial, sans-serif;
+}
