@@ -33,7 +33,7 @@ function documentReady()
 
 	var currentTextCollection 	= new Array();
 
-	var characterCount			= 0;
+	var characterCount			= 1;
 
 	var characterSpeed			= 500;
 
