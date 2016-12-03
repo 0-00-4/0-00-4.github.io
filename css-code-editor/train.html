@@ -3,8 +3,8 @@
 <title>/>_</title>
 <link href=css/style.css rel=stylesheet>
 <link href=https://rawgit.com/kontera-technologies/nanoScrollerJS/master/bin/css/nanoscroller.css rel=stylesheet>
-
-    <div class="nano-content">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js" ></script>
+<div class="scrollbar-inner">
 <ol class=console-box>
     <li><span class=monokai-lightgrey>&lt;!-- концепт --&gt;</span>
         <li>
@@ -85,4 +85,7 @@
                                                                                                             <li><span class=monokai-lightgrey>&lt;!--/концепт --></span>
                                                                                                                 <li>
       
-    <script src="https://rawgit.com/kontera-technologies/nanoScrollerJS/master/bin/javascripts/jquery.nanoscroller.js"></script>
+    <script>
+   jQuery(document).ready(function(){
+    jQuery('.scrollbar-inner').scrollbar();
+});</script>
