@@ -112,7 +112,7 @@ function documentReady()
 
 		console.log(getRandomText());
 
-		$("#rnd ").text(getRandomText());
+		$("#rnd #sp ").text(getRandomText());
 
 	}
 
