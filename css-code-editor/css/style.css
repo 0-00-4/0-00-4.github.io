@@ -173,7 +173,7 @@ body {
 .component .typewriter > span {
   display: inline-block;
 }
-.console-box.component .typewriter.animate > span > i {
+.component .typewriter.animate > span > i {
   -webkit-animation: typewriter 300ms forwards, background 1000ms forwards;
           animation: typewriter 300ms forwards, background 1000ms forwards;
 }
@@ -185,31 +185,31 @@ body {
   min-width: .4em;
   border-radius: 2px;
 }
-.console-box.component .typewriter > span > i:nth-of-type(1) {
+.component .typewriter > span > i:nth-of-type(1) {
   -webkit-animation-delay: 100ms;
           animation-delay: 100ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(2) {
+.component .typewriter > span > i:nth-of-type(2) {
   -webkit-animation-delay: 200ms;
           animation-delay: 200ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(3) {
+.component .typewriter > span > i:nth-of-type(3) {
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(4) {
+.component .typewriter > span > i:nth-of-type(4) {
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(5) {
+.component .typewriter > span > i:nth-of-type(5) {
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(6) {
+.component .typewriter > span > i:nth-of-type(6) {
   -webkit-animation-delay: 600ms;
           animation-delay: 600ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(7) {
+.component .typewriter > span > i:nth-of-type(7) {
   -webkit-animation-delay: 700ms;
           animation-delay: 700ms;
 }
@@ -217,91 +217,91 @@ body {
   -webkit-animation-delay: 800ms;
           animation-delay: 800ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(9) {
+.component .typewriter > span > i:nth-of-type(9) {
   -webkit-animation-delay: 900ms;
           animation-delay: 900ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(10) {
+.component .typewriter > span > i:nth-of-type(10) {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(11) {
+.component .typewriter > span > i:nth-of-type(11) {
   -webkit-animation-delay: 1100ms;
           animation-delay: 1100ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(12) {
+.component .typewriter > span > i:nth-of-type(12) {
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(13) {
+.component .typewriter > span > i:nth-of-type(13) {
   -webkit-animation-delay: 1300ms;
           animation-delay: 1300ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(14) {
+.component .typewriter > span > i:nth-of-type(14) {
   -webkit-animation-delay: 1400ms;
           animation-delay: 1400ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(15) {
+.component .typewriter > span > i:nth-of-type(15) {
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(16) {
+.component .typewriter > span > i:nth-of-type(16) {
   -webkit-animation-delay: 1600ms;
           animation-delay: 1600ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(17) {
+.component .typewriter > span > i:nth-of-type(17) {
   -webkit-animation-delay: 1700ms;
           animation-delay: 1700ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(18) {
+.component .typewriter > span > i:nth-of-type(18) {
   -webkit-animation-delay: 1800ms;
           animation-delay: 1800ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(19) {
+.component .typewriter > span > i:nth-of-type(19) {
   -webkit-animation-delay: 1900ms;
           animation-delay: 1900ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(20) {
+.component .typewriter > span > i:nth-of-type(20) {
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(21) {
+.component .typewriter > span > i:nth-of-type(21) {
   -webkit-animation-delay: 2100ms;
           animation-delay: 2100ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(22) {
+.component .typewriter > span > i:nth-of-type(22) {
   -webkit-animation-delay: 2200ms;
           animation-delay: 2200ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(23) {
+.component .typewriter > span > i:nth-of-type(23) {
   -webkit-animation-delay: 2300ms;
           animation-delay: 2300ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(24) {
+.component .typewriter > span > i:nth-of-type(24) {
   -webkit-animation-delay: 2400ms;
           animation-delay: 2400ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(25) {
+.component .typewriter > span > i:nth-of-type(25) {
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(26) {
+.component .typewriter > span > i:nth-of-type(26) {
   -webkit-animation-delay: 2600ms;
           animation-delay: 2600ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(27) {
+.component .typewriter > span > i:nth-of-type(27) {
   -webkit-animation-delay: 2700ms;
           animation-delay: 2700ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(28) {
+.component .typewriter > span > i:nth-of-type(28) {
   -webkit-animation-delay: 2800ms;
           animation-delay: 2800ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(29) {
+.component .typewriter > span > i:nth-of-type(29) {
   -webkit-animation-delay: 2900ms;
           animation-delay: 2900ms;
 }
-.console-box.component .typewriter > span > i:nth-of-type(30) {
+.component .typewriter > span > i:nth-of-type(30) {
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
 }
