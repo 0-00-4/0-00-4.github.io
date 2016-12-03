@@ -12,7 +12,7 @@ body {
   font-family: Monospace, sans-serif;
   background: #404041;
   border-radius: 5px;
-  overflow: auto;
+/*overflow: auto;*/
   counter-reset: codeline; 
   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
