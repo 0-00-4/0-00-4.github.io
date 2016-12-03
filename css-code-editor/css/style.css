@@ -5,7 +5,7 @@ body {
 .console-box {
   width: 80%;
   max-width: 920px;
-  max-height: 360px;
+  max-height: 100vw;
   margin: 50px auto;
   padding-left: 0; 
   font-family: Monospace, sans-serif;
