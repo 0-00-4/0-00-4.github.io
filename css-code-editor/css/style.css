@@ -181,7 +181,7 @@ body {
 }
 .component .typewriter > span > i {
   opacity: 0;
-  color: #111;
+  color:#ffe792;
   font-style: normal;
   font-size: 1em;
   min-width: .4em;
