@@ -3,7 +3,7 @@
 window.app = function (_) {
 
   var log = console.log.bind(console),
-      messageElement = document.querySelector('.js-typewriter'),
+      messageElement = document.querySelector('.js-typewriter #rnd'),
       text = messageElement.innerText.trim();
 
   var words = text.split(' ');
