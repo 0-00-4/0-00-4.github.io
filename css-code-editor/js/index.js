@@ -29,7 +29,7 @@ function documentReady()
 
 	var characterCollection 	= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V", "Y", "Z"];
 
-	var currentText 			= $(".effect-text-container h1").text();
+	var currentText 			= $(".console-box").text();
 
 	var currentTextCollection 	= new Array();
 
