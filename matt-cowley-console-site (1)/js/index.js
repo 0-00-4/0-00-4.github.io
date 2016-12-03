@@ -236,7 +236,7 @@ particlesJS('particles-js', {
     },
     'opacity': {
       'value': 0.06,
-      'random': false
+      'random': true
     },
     'size': {
       'value': 11,
@@ -253,7 +253,7 @@ particlesJS('particles-js', {
       'enable': true,
       'speed': 4,
       'direction': 'none',
-      'random': false,
+      'random': true,
       'straight': false,
       'out_mode': 'out',
       'bounce': false
@@ -263,7 +263,7 @@ particlesJS('particles-js', {
     'detect_on': 'canvas',
     'events': {
       'onhover': {
-        'enable': false
+        'enable': true
       },
       'onclick': {
         'enable': true,
