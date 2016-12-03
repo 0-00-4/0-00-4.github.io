@@ -29,7 +29,7 @@ function documentReady()
 
 	var characterCollection 	= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V", "Y", "Z"];
 
-	var currentText 			= $(".monokai-white").text();
+	var currentText 			= $(".white").text();
 
 	var currentTextCollection 	= new Array();
 
@@ -112,7 +112,7 @@ function documentReady()
 
 		console.log(getRandomText());
 
-		$(".monokai-white ").text(getRandomText());
+		$(".white ").text(getRandomText());
 
 	}
 
