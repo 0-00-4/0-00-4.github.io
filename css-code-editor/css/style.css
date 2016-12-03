@@ -146,3 +146,17 @@ body {
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(255,0,0,0.4); 
 }
+
+
+
+
+
+
+.scroll_content {
+    position: relative;
+    width: 400px;
+    height: 414px;
+    top: -17px;
+    padding: 20px 10px 20px 10px;
+    overflow-y: auto;
+}
