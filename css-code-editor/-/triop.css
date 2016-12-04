@@ -124,7 +124,7 @@ a.leave {
 
     float: left;
     width: 100%;
-    padding: 30px 0px 35px 0px;
+   /* padding: 30px 0px 35px 0px;*/
     box-sizing: padding-box;
 
 }
@@ -177,7 +177,7 @@ a.leave {
     a.unsubscribe {
         margin: 0;
         width: 50%;
-        margin-bottom: 15px;
+       /* margin-bottom: 15px;*/
         padding: 0;
 
     }
