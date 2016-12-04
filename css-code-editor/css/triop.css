@@ -74,7 +74,7 @@ a.leave {
 
 
 .content .browser {
-
+    position:absolute;
     float: left;
     background: #404041;
     text-align: center;
