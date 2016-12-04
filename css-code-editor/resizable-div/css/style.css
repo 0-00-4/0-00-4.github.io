@@ -1,0 +1,17 @@
+.resizable-thing {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 20px;
+  top: 20px;
+  background: lightgrey;  
+  border: 1px solid black;
+}
+
+.handle {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black /*#8FAFC8*/;
+  background: white/*#E7FFFF*/;
+  position: absolute;
+}
