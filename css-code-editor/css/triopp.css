@@ -10,7 +10,7 @@ body {
   margin: 50px auto;
   padding-left: 0; 
   font-family: Monospace, sans-serif;
-  background: #404041;
+  background: #2b303b;
   border-radius: 5px;
 /*overflow: auto;*/
   counter-reset: codeline; 
