@@ -58,13 +58,12 @@ a.leave {
 
 
 .content {
-    position: absolute;
+     position: absolute;
     width: 50%;
     height: 9%;
-    top: -37vw;
+    top: -40vw;
     text-align: center;
-    left: 27vw;
-
+    left: 25vw;
 }
 
 .content .report {
