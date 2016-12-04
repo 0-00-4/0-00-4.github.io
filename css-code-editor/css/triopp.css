@@ -17,6 +17,7 @@ body {
   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   border: 2px solid #cccccc;
+  text-align: left;	
 }
 
 .console-box > li {
@@ -407,7 +408,7 @@ a.leave {
 
 
 .content {
-    width: 50%;
+    width: 97%;
     height: 9%;
     top: -40vw;
     text-align: center;
