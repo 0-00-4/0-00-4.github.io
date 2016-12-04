@@ -13,7 +13,7 @@ function documentReady()
 
 	var characterCollection 	= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V", "Y", "Z"];
 
-	var currentText 			= $("#rnd").text();
+	var currentText 			= $(".rnd").text();
 
 	var currentTextCollection 	= new Array();
 
