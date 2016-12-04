@@ -407,7 +407,6 @@ a.leave {
 
 
 .content {
-     position: absolute;
     width: 50%;
     height: 9%;
     top: -40vw;
@@ -424,7 +423,6 @@ a.leave {
 
 
 .content .browser {
-    position:absolute;
     float: left;
     background: #404041;
     text-align: center;
