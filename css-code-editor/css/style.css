@@ -16,6 +16,7 @@ body {
   counter-reset: codeline; 
   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+  border: 2px solid #cccccc;
 }
 
 .console-box > li {
