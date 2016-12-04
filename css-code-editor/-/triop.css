@@ -60,12 +60,8 @@ a.leave {
 
 .content {
     position: absolute;
-    width: 600px;
-    height: 370px;
-    top: 50%;
-    left: 50%;
-    margin-top: -215px;
-    margin-left: -300px;
+   width: 100%;
+    height: 100%;
     text-align: center;
 
 }
@@ -86,7 +82,6 @@ a.leave {
     width: 100%;
     border: 2px solid #cccccc;
     border-radius: 6px;
-    margin-bottom: 30px;
     box-sizing: border-box;
 
 }
