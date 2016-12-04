@@ -137,4 +137,3 @@ function ChkTorBtn() {
     document.getElementById("tor").innerHTML = "No";
     document.getElementById("tails").innerHTML = "Unknown";
   }
-
